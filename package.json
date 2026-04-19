@@ -1,14 +1,14 @@
 {
-  "name": "gmail-test",
+  "name": "icph-email-server",
   "version": "1.0.0",
+  "description": "ICPH email server for approval and rejection emails",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
     "cors": "^2.8.5",
-    "dotenv": "^16.0.0",
-    "express": "^4.18.2",
-    "nodemailer": "^6.9.0"
+    "express": "^4.21.2",
+    "nodemailer": "^6.9.16"
   }
 }
